@@ -1,0 +1,277 @@
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="hnk5ezRp1aBkcTqBehWCQXwi7_H9ZTf1szD8IT5t59A" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="<%= description %>">
+  <meta name="author" content="Łukasz Holeczek">
+  <!-- meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard" -->
+  <title><%= title %></title>
+  <link href="/styles/font-awesome.css" rel="stylesheet">
+  <link href="/styles/simple-line-icons.css" rel="stylesheet">
+  <link href="/styles/custom.css" rel="stylesheet">
+  <link href="/styles/style.css" rel="stylesheet">
+  <link href="/styles/ekko-lightbox.css" rel="stylesheet">
+  <!--link href="vendors/pace-progress/css/pace.min.css" rel="stylesheet"-->
+  <style>
+    #map {
+      height: 253px;
+    }
+  </style>
+</head>
+<body
+  class="app header-fixed sidebar-fixed breadcrumb-fixed footer-fixed aside-menu-fixed sidebar-lg-show pace-done">
+<div class="pace  pace-inactive">
+  <div class="pace-progress" data-progress-text="100%" data-progress="99"
+       style="transform: translate3d(100%, 0px, 0px);">
+    <div class="pace-progress-inner"></div>
+  </div>
+  <div class="pace-activity"></div>
+</div>
+<header class="app-header navbar">
+  <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="/ru">
+    <img class="navbar-brand-full" src="/images/logo.png" alt="">
+    <img class="navbar-brand-minimized" src="/images/logo-short.png" alt="">
+  </a>
+  <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <ul class="nav navbar-nav d-md-down-none">
+    <li class="nav-item px-3 mr-2" style="
+    background: #ffed94;
+    box-shadow: inset 0 0 2px 0px #171616;
+    border-radius: 2px;
+">
+      <a class="nav-link" href="/ru/галерея" style="
+    padding: .5rem 0;
+">Галерея</a>
+    </li>
+    <li class="nav-item px-3 mr-2" style="
+    background: #ffed94;
+    box-shadow: inset 0 0 2px 0px #171616;
+    border-radius: 2px;
+">
+      <a class="nav-link" href="/ru/контакты" style="
+    padding: .5rem 0;
+">Мы на карте</a>
+    </li>
+    <li class="nav-item px-3" style="
+    background: #a71423;
+    box-shadow: inset 0 0 2px 0px #171616;
+    border-radius: 2px;
+">
+      <a class="nav-link" href="/ru/наши-награды" style="
+    padding: .5rem 0;
+    color: #fff;
+">Наши награды</a>
+    </li>
+  </ul>
+  <ul class="nav navbar-nav ml-auto">
+    <button class="navbar-toggler aside-menu-toggler d-md-down-none" type="button" data-toggle="aside-menu-lg-show">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </ul>
+  <button class="navbar-toggler aside-menu-toggler d-lg-none" type="button" data-toggle="aside-menu-show">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</header>
+<div class="app-body right warning">
+  <div class="sidebar">
+    <nav class="sidebar-nav ps ps--active-y">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/ru">
+            <i class="fa fa-home nav-icon"></i></i> Главная
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bg-color-1" href="/ru/услуги">
+            <i class="nav-icon icon-arrow-right text-white"></i> Услуги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/ru/услуги/архитектурные">
+            <i class="nav-icon icon-options"></i> Архитектурные</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/ru/услуги/наружная-реклама">
+            <i class="nav-icon icon-options"></i> Наружная реклама</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/ru/услуги/порезка">
+            <i class="nav-icon icon-options"></i> Порезка</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/ru/услуги/широкоформатная-печать">
+            <i class="nav-icon icon-options"></i> Широкоформатная печать</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/ru/услуги/реклама-в-броварах">
+            <i class="nav-icon icon-options"></i> Реклама в Броварах</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bg-color-2" href="/ru/галерея">
+            <i class="nav-icon icon-layers text-white"></i> Галерея</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bg-color-3" href="/ru/контакты">
+            <i class="nav-icon icon-phone text-white"></i> Контакты</a>
+        </li>
+      </ul>
+      <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+        <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+      </div>
+      <div class="ps__rail-y" style="top: 0px; height: 441px; right: 0px;">
+        <div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 275px;"></div>
+      </div>
+    </nav>
+    <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+  </div>
+  <main class="main">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><span class="color-1-strong">Контакты:</span> г. Бровары, ул. Киевская, д. 219</li>
+      <li class="breadcrumb-item"><span class="color-1-strong">Телефон:</span> <a href="tel:+380970034043">(097)003-40-43</a>
+      </li>
+    </ol>
+    <div class="container-fluid">
+      <div id="ui-view">
+        <div>
+          <%- body %>
+        </div>
+      </div>
+    </div>
+  </main>
+  <aside class="aside-menu">
+    <div class="tab-content">
+      <div class="tab-pane p-3 active show" id="messages" role="tabpanel">
+        <div class="message">
+          <div>
+            <small class="text-muted">Наружная реклама</small>
+          </div>
+          <div class="text-truncate font-weight-bold">Изготовление вывески</div>
+          <small class="text-muted">У нас самые широкие возможности в изготовлении наружной рекламы. Наши специалисты
+            изготовят вывеску любого типа и сложности...
+          </small>
+          <br>
+          <button class="btn  btn-link p-0" type="button">Заказать вывеску</button>
+        </div>
+        <hr>
+        <div class="message">
+          <div>
+            <small class="text-muted">Архитектурные услуги</small>
+          </div>
+          <div class="text-truncate font-weight-bold">Разрешение на рекламу</div>
+          <small class="text-muted">Проектно техническая документация нужна в том случае, если вы заказали такой тип
+            наружной рекламы на которую требуется разрешение от местных органов власти...
+          </small>
+          <br>
+          <button class="btn  btn-link p-0" type="button">Заказать тех. паспорт</button>
+        </div>
+        <hr>
+
+      </div>
+    </div>
+  </aside>
+</div>
+<footer class="app-footer">
+  <div>
+    <a href="https://coreui.io/pro/">Бровары Реклама</a>
+    <span>© 2018</span>
+  </div>
+  <div class="ml-auto">
+    <span>Сделано в </span>
+    <a href="">Infinity Loop</a>
+  </div>
+</footer>
+<script src="/dependencies/sails.io.js"></script>
+<% if(typeof subservice !== "undefined"){ %>
+  <script>
+    var service = "<%= service %>"
+    var language = "<%= language %>"
+    var url = "/get/menu/secondary";
+    var data = {
+      service: service,
+      language: language
+    }
+    io.socket.post(url, data, function (resData, menu) {
+      console.log()
+      var path = decodeURIComponent(window.location.pathname);
+      $("#secondary-menu").append(menu.body.content);
+      $("a[href$='" + path + "']").addClass("active");
+    });
+
+  </script>
+<% } %>
+
+<script src="/js/jquery.js"></script>
+<!--script src="vendors/popper.js/js/popper.min.js"></script-->
+<script src="/js/bootstrap.js"></script>
+<!--script src="vendors/pace-progress/js/pace.min.js"></script-->
+<script src="/js/perfect-scrollbar.js"></script>
+<script src="/js/coreui.js"></script>
+<%
+if (typeof page !== "undefined") {
+if (page == 'контакты') {
+%>
+  <script>
+    var map, popup, Popup;
+
+    /** Initializes the map and the custom popup. */
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 50.5063779, lng: 30.7767612},
+        zoom: 15,
+        disableDefaultUI: true
+      });
+
+      var image = '/images/logo-short.png';
+      var beachMarker = new google.maps.Marker({
+        position: {lat: 50.5063779, lng: 30.7767612},
+        map: map,
+        icon: image
+      });
+
+      var contentString = '<div id="content">' +
+        '<div id="siteNotice">' +
+        '</div>' +
+        '<h1 id="firstHeading" class="firstHeading">Бровары Реклама</h1>' +
+        '<div id="bodyContent">' +
+
+        '<p>тел.: (097)003-40-43<br>' +
+        '<div class="text-truncate font-weight-bold">Режим работы</div> <br>' +
+        '<span class="text-primary h6">ПН - ПТ: 09:00 - 18:00</span><br>' +
+        '<span class="text-danger h6">СБ, ВС: Выходной</span>' +
+        '</div>' +
+        '</div>';
+
+      var infowindow = new google.maps.InfoWindow({
+        content: contentString
+      });
+
+      infowindow.open(map, beachMarker);
+
+      beachMarker.addListener('click', function () {
+        infowindow.open(map, beachMarker);
+      });
+
+    }
+  </script>
+  <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGWCSKUNij0405XH-qtG8ECV3jm8r_jrk&callback=initMap">
+  </script>
+<% }} %>
+<script src="/js/ekko-lightbox.js"></script>
+<script>
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
+</script>
+</body>
+</html>
+
+
+
