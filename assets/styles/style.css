@@ -15118,3 +15118,7 @@ body {
     opacity: 0
   }
 }
+
+#uslugi .card-body p {
+  min-height: 40px;
+}
