@@ -11654,7 +11654,7 @@ canvas {
 
 .sidebar .nav-link.active {
   color: #fff;
-  background: #3a4248
+  background: #3a4248;
 }
 
 .sidebar .nav-link.active .nav-icon {
@@ -11663,7 +11663,7 @@ canvas {
 
 .sidebar .nav-link:hover {
   color: #fff;
-  background: #20a8d8
+  background: #3a4248;
 }
 
 .sidebar .nav-link:hover .nav-icon {
